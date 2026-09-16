@@ -588,7 +588,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Editorial Layout',
     year: '2026',
-    image: 'https://i.ibb.co/ds9qDvCd/Chat-GPT-Image-Sep-16-2026-12-09-36-AM.png',
+    image: '/images/print/print_1.png',
     description: 'Modular typographic spread with strict baseline alignment, contrasting editorial headlines, and rhythmic negative space.',
     tags: ['Editorial', 'Typography', 'Grid System']
   },
@@ -598,7 +598,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Gatefold Print',
     year: '2026',
-    image: 'https://i.ibb.co/vxzKcyR0/Chat-GPT-Image-Sep-16-2026-12-13-15-AM.png',
+    image: '/images/print/print_2.png',
     description: 'Panoramic horizontal gatefold layout printed on heavy uncoated stock with tactile spot UV and blind deboss detailing.',
     tags: ['Brochure', 'Gatefold', 'Spot UV']
   },
@@ -608,7 +608,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Exhibition Catalogue',
     year: '2026',
-    image: 'https://i.ibb.co/3ySHzZMW/Chat-GPT-Image-Sep-16-2026-12-28-27-AM.png',
+    image: '/images/print/print_3.png',
     description: 'Double-page horizontal catalogue spread highlighting minimal geometric composition, Swiss typography, and high-contrast imagery.',
     tags: ['Lookbook', 'Offset Litho', 'Swiss Grid']
   },
@@ -618,7 +618,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Independent Publication',
     year: '2026',
-    image: 'https://i.ibb.co/4gVYhxYx/Chat-GPT-Image-Sep-16-2026-12-00-54-AM.png',
+    image: '/images/print/print_4.png',
     description: 'Hand-bound publication exploring brutalist graphic forms, experimental page breaks, and vivid fluorescent spot inks.',
     tags: ['Publication', 'Zine', 'Experimental']
   },
@@ -628,7 +628,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Corporate Stationery',
     year: '2026',
-    image: 'https://i.ibb.co/Cdj05Fw/Chat-GPT-Image-Sep-16-2026-12-37-20-AM.png',
+    image: '/images/print/print_5.png',
     description: 'Comprehensive printed stationery system featuring letterheads, tri-fold brochures, and textured cotton stock envelopes.',
     tags: ['Stationery', 'Letterpress', 'Brand Collateral']
   },
@@ -638,7 +638,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Silkscreen Exhibition Poster',
     year: '2026',
-    image: 'https://i.ibb.co/sdJBjNjH/Chat-GPT-Image-Sep-15-2026-11-04-27-PM.png',
+    image: '/images/print/print_6.png',
     description: 'Monumental vertical exhibition poster screen-printed on 300gsm recycled Munken paper with ultra-dense carbon black and vivid accent pigment.',
     tags: ['Silkscreen', 'B1 Poster', 'Munken 300gsm']
   },
@@ -648,7 +648,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Typographic Poster Print',
     year: '2026',
-    image: 'https://i.ibb.co/1w94pTC/Chat-GPT-Image-Sep-15-2026-11-29-43-PM.png',
+    image: '/images/print/print_7.png',
     description: 'Vertical typographic print balancing disciplined column structures with fluid kinetic type distortion.',
     tags: ['Typo Poster', 'Screenprint', 'Archive Print']
   },
@@ -658,7 +658,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Vinyl Jacket & Sleeve',
     year: '2026',
-    image: 'https://i.ibb.co/21s9qTtr/Chat-GPT-Image-Sep-16-2026-02-36-22-PM.png',
+    image: '/images/print/print_8.png',
     description: 'Heavyweight matte cardboard LP packaging with custom inner dust sleeve, embossed titles, and metallic ink detailing.',
     tags: ['Vinyl Sleeve', 'Art Direction', 'Custom Die-Cut']
   },
@@ -668,7 +668,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Hardcover Monograph',
     year: '2026',
-    image: 'https://i.ibb.co/nqj2Fh6w/Chat-GPT-Image-Sep-16-2026-02-45-50-PM.png',
+    image: '/images/print/print_9.png',
     description: 'Clothbound hardcover monograph with foil-blocked spine typography and high-definition duotone printed interior folios.',
     tags: ['Monograph', 'Clothbound', 'Foil Stamping']
   },
@@ -678,7 +678,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Brand Guidelines Document',
     year: '2026',
-    image: 'https://i.ibb.co/KpvW8cG5/Chat-GPT-Image-Sep-15-2026-11-19-22-PM.png',
+    image: '/images/print/print_10.png',
     description: 'Landscape brand architecture manual bound with matte black wire-O comb, featuring color-calibrated Pantone chip samples.',
     tags: ['Brand Manual', 'Wire-O Bound', 'Pantone System']
   },
@@ -688,7 +688,7 @@ export const PRINT_PROJECTS: ProjectItem[] = [
     category: 'print',
     categoryLabel: 'Die-Cut Pocket Folders',
     year: '2026',
-    image: 'https://i.ibb.co/hvC0kW8/Chat-GPT-Image-Sep-16-2026-02-57-55-PM.png',
+    image: '/images/print/print_11.png',
     description: 'Custom die-cut pocket presentation folders with business card slits, blind embossed seal, and matching saddle-stitched pamphlets.',
     tags: ['Die-Cut Folders', 'Embossed', 'Print Suite']
   }

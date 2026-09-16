@@ -126,7 +126,14 @@ export function AboutSection({ onOpenContact, onCursorChange }: AboutSectionProp
             <div className="relative group overflow-hidden bg-[#F5F1EA] border border-[#111111] p-3 shadow-[6px_6px_0px_#111111]">
               <div className="aspect-square overflow-hidden bg-[#111111] border border-[#111111]">
                 <img
-                  src="https://i.ibb.co/PsK6LphD/Chat-GPT-Image-Sep-16-2026-04-31-00-PM.png"
+                  src="/images/about/portrait.png"
+                  onError={(e) => {
+                    // Fallback to remote CDN if local is unavailable
+                    const target = e.currentTarget;
+                    if (target.src !== 'https://i.ibb.co/PsK6LphD/Chat-GPT-Image-Sep-16-2026-04-31-00-PM.png') {
+                      target.src = 'https://i.ibb.co/PsK6LphD/Chat-GPT-Image-Sep-16-2026-04-31-00-PM.png';
+                    }
+                  }}
                   alt="S. Arvind Portrait"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-contain"
