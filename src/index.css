@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Archivo Black', sans-serif;
+    --font-condensed: 'Bebas Neue', cursive, sans-serif;
+    --font-grotesk: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-condensed {
+  font-family: var(--font-condensed);
+}
+
+.font-grotesk {
+  font-family: var(--font-grotesk);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Fluid Typography */
+.text-huge {
+  font-size: clamp(3.5rem, 14vw, 15rem);
+  line-height: 0.82;
+  letter-spacing: -0.04em;
+}
+
+.text-editorial-xl {
+  font-size: clamp(2.5rem, 8vw, 8rem);
+  line-height: 0.88;
+  letter-spacing: -0.03em;
+}
+
+.text-editorial-lg {
+  font-size: clamp(2rem, 5vw, 5rem);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+}
+
+/* Geometric Balance Grid Line Background */
+.grid-line {
+  background-image: radial-gradient(rgba(17, 17, 17, 0.35) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+.bg-noise,
+.bg-dots {
+  background-image: radial-gradient(rgba(17, 17, 17, 0.32) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+.bg-dots-dark {
+  background-image: radial-gradient(rgba(245, 241, 234, 0.22) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+body {
+  background-color: #F5F1EA;
+  background-image: radial-gradient(rgba(17, 17, 17, 0.32) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  color: #111111;
+}
+
+/* Hard Brutalist Shadows for Geometric Balance */
+.shadow-hard {
+  box-shadow: 4px 4px 0px #111111;
+}
+
+.shadow-hard-lg {
+  box-shadow: 8px 8px 0px #111111;
+}
+
+.shadow-hard-xl {
+  box-shadow: 12px 12px 0px #111111;
+}
+
+.shadow-hard-hover:hover {
+  box-shadow: 8px 8px 0px #111111;
+  transform: translate(-2px, -2px);
+}
+
+/* Marquee continuous scroll */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 22s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-fast {
+  display: flex;
+  width: max-content;
+  animation: marquee 16s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 24s linear infinite;
+}
+
+/* Hide default cursor on desktop when custom cursor is active */
+@media (pointer: fine) {
+  body.has-custom-cursor {
+    cursor: none;
+  }
+  body.has-custom-cursor a,
+  body.has-custom-cursor button,
+  body.has-custom-cursor [role="button"] {
+    cursor: none;
+  }
+}
+
