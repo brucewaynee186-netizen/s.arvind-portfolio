@@ -100,58 +100,10 @@ export function Footer({ onOpenContact, onCursorChange }: FooterProps) {
           </div>
         </div>
 
-        {/* Social Links & Colophon Bottom Row */}
-        <div className="pt-10 border-t border-[#222222] flex flex-col md:flex-row items-center justify-between gap-6 font-grotesk text-xs text-[#D8D0C5]/70">
-          {/* Socials */}
-          <div className="flex flex-wrap items-center gap-6 font-bold uppercase tracking-widest text-[#F5F1EA]">
-            <a
-              href={DESIGNER_INFO.socials.behance}
-              target="_blank"
-              rel="noreferrer"
-              onMouseEnter={() => onCursorChange?.('link')}
-              onMouseLeave={() => onCursorChange?.('default')}
-              className="hover:text-[#FF4D2E] transition-colors flex items-center gap-1"
-            >
-              <span>BEHANCE</span>
-              <ArrowUpRight size={12} />
-            </a>
-            <a
-              href={DESIGNER_INFO.socials.instagram}
-              target="_blank"
-              rel="noreferrer"
-              onMouseEnter={() => onCursorChange?.('link')}
-              onMouseLeave={() => onCursorChange?.('default')}
-              className="hover:text-[#FF4D2E] transition-colors flex items-center gap-1"
-            >
-              <span>INSTAGRAM</span>
-              <ArrowUpRight size={12} />
-            </a>
-            <a
-              href={DESIGNER_INFO.socials.linkedin}
-              target="_blank"
-              rel="noreferrer"
-              onMouseEnter={() => onCursorChange?.('link')}
-              onMouseLeave={() => onCursorChange?.('default')}
-              className="hover:text-[#FF4D2E] transition-colors flex items-center gap-1"
-            >
-              <span>LINKEDIN</span>
-              <ArrowUpRight size={12} />
-            </a>
-            <a
-              href={DESIGNER_INFO.socials.dribbble}
-              target="_blank"
-              rel="noreferrer"
-              onMouseEnter={() => onCursorChange?.('link')}
-              onMouseLeave={() => onCursorChange?.('default')}
-              className="hover:text-[#FF4D2E] transition-colors flex items-center gap-1"
-            >
-              <span>DRIBBBLE</span>
-              <ArrowUpRight size={12} />
-            </a>
-          </div>
-
+        {/* Colophon Bottom Row */}
+        <div className="pt-10 border-t border-[#222222] flex flex-col md:flex-row items-center justify-between gap-4 font-grotesk text-xs text-[#D8D0C5]/70">
           {/* Copyright line */}
-          <div className="flex items-center gap-4 text-[11px] font-mono text-[#D8D0C5]/50">
+          <div className="flex flex-wrap items-center gap-4 text-[11px] font-mono text-[#D8D0C5]/50">
             <span>© 2026 {DESIGNER_INFO.name}. ALL RIGHTS RESERVED.</span>
             <span>SET IN SPACE GROTESK & ARCHIVO</span>
           </div>

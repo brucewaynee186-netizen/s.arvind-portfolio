@@ -252,11 +252,11 @@ export const BRANDING_PROJECTS: ProjectItem[] = [
       sampleText: 'GOOD SWAN // SAFE, COMFORTABLE & RELIABLE TRAVEL'
     },
     mockups: [
-      'https://i.ibb.co/PG3vpv2n/Chat-GPT-Image-Aug-24-2026-06-52-30-PM.png',
+      'https://i.ibb.co/GfwR3t4Y/Chat-GPT-Image-Aug-24-2026-06-52-30-PM.png',
       'https://i.ibb.co/JwDwxMfv/Chat-GPT-Image-Aug-24-2026-07-11-02-PM.png',
-      'https://i.ibb.co/GfqJW4tK/77.png',
+      'https://i.ibb.co/4gCHh9CB/Chat-GPT-Image-Aug-24-2026-05-18-13-PM.png',
       'https://i.ibb.co/0p2qPfjZ/Chat-GPT-Image-Aug-24-2026-06-39-56-PM.png',
-      'https://i.ibb.co/Nbfpvf1/Chat-GPT-Image-Aug-24-2026-06-33-03-PM.png'
+      'https://i.ibb.co/SDQmJf3m/Chat-GPT-Image-Aug-24-2026-06-33-03-PM.png'
     ]
   },
   {
@@ -302,8 +302,8 @@ export const BRANDING_PROJECTS: ProjectItem[] = [
       sampleText: 'EDVORA UNIVERSITY // HIGHER EDUCATION & RESEARCH'
     },
     mockups: [
-      'https://i.ibb.co/XkSZP1JS/Chat-GPT-Image-Aug-25-2026-12-22-47-AM.png',
-      'https://i.ibb.co/DHh7PQF4/Chat-GPT-Image-Aug-25-2026-12-28-32-AM.png',
+      'https://i.ibb.co/nqMMt5h0/1111.png',
+      'https://i.ibb.co/cSPm7ycK/22.png',
       'https://i.ibb.co/shsL6pp/Chat-GPT-Image-Aug-25-2026-12-00-05-AM.png',
       'https://i.ibb.co/9mFkC6VH/Chat-GPT-Image-Aug-25-2026-12-51-05-AM.png'
     ]
