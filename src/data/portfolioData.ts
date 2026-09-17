@@ -472,7 +472,7 @@ export const PACKAGING_PROJECTS: ProjectItem[] = [
       sampleText: 'VORTEX // HIGH PERFORMANCE EQUIPMENT PACKAGING'
     },
     mockups: [
-      'https://i.ibb.co/CFpwXxp/vx.png',
+      'https://i.ibb.co/ZpD127Qy/vxcc.png',
       'https://i.ibb.co/39qwnY6c/vx1.png',
       'https://i.ibb.co/4ZVSkJFd/vx3.png'
     ],
